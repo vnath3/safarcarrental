@@ -335,12 +335,13 @@
  .ticker-container {
      overflow: hidden;
      background-color: #333;
+     width: 75%;
  }
 
  .ticker {
      display: inline-block;
      white-space: nowrap;
-     animation: tickerAnimation 20s linear infinite;
+     animation: tickerAnimation 30s linear alternate;
      color: #fff;
  }
 
@@ -357,5 +358,36 @@
 
      100% {
          transform: translateX(-100%);
+     }
+ }
+
+ @media screen and (max-width: 480px) {
+
+     .ticker-container {
+         overflow: hidden;
+         background-color: #333;
+         width: 75%;
+     }
+
+     .ticker {
+         display: inline-block;
+         white-space: nowrap;
+         animation: tickerAnimation 30s linear alternate;
+         color: #fff;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+     .ticker-container {
+         overflow: hidden;
+         background-color: #333;
+         width: 75%;
+     }
+
+     .ticker {
+         display: inline-block;
+         white-space: nowrap;
+         animation: tickerAnimation 30s linear alternate;
+         color: #fff;
      }
  }
