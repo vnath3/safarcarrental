@@ -341,7 +341,7 @@
  .ticker {
      display: inline-block;
      white-space: nowrap;
-     animation: tickerAnimation 20s linear alternate;
+     animation: tickerAnimation 10s linear alternate;
      color: #fff;
  }
 
