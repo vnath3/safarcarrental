@@ -366,7 +366,7 @@
      .ticker-container {
          overflow: hidden;
          background-color: #333;
-         width: 75%;
+         width: 100%;
      }
 
      .ticker {
@@ -381,13 +381,13 @@
      .ticker-container {
          overflow: hidden;
          background-color: #333;
-         width: 75%;
+         width: 100%;
      }
 
      .ticker {
          display: inline-block;
          white-space: nowrap;
-         animation: tickerAnimation 30s linear alternate;
+         animation: tickerAnimation 20s linear alternate;
          color: #fff;
      }
  }
