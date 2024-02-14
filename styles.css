@@ -47,7 +47,7 @@
 
  .hero .container {
      position: relative;
-     z-index: 1;
+     /* z-index: 1; */
      text-align: center;
      margin-top: 155px;
  }
@@ -167,7 +167,7 @@
      position: fixed;
      left: 93%;
      bottom: 15%;
-     z-index: 1000;
+     /* z-index: 1000; */
  }
 
  /* Logo Styles */
@@ -175,7 +175,7 @@
      position: absolute;
      top: 5px;
      right: 20px;
-     z-index: 9999;
+     /* z-index: 9999; */
      width: 100px;
      height: auto;
  }
@@ -278,7 +278,7 @@
      /* Add some space between cards */
      margin-bottom: 20px;
      /* Add some space below cards */
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
      border-radius: 8px;
      overflow: hidden;
      transition: transform 0.3s ease;
@@ -297,7 +297,7 @@
      /* Cover the entire area of the image */
  }
 
- .overlay {
+ /* .overlay {
      position: absolute;
      top: 0;
      left: 0;
@@ -310,10 +310,11 @@
      display: flex;
      justify-content: center;
      align-items: center;
- }
+ } */
 
  .card:hover .overlay {
-     opacity: 1;
+     opacity: 100;
+
      /* Show the overlay on hover */
  }
 
